@@ -1,0 +1,125 @@
+html {
+    scroll-behavior: smooth;
+  }
+
+  /* Background image, font set */
+body    {
+    font-family: monospace;
+    background-image: url("imgs/background.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: auto;
+    align-items: center;
+
+}
+
+/* Top Header */
+header  {
+    text-align: left;
+    padding-left: 15%;
+    border-bottom: 4px solid #e01b84;
+    margin: 0px;
+    font-weight: bold;
+}
+
+#bottomhead    {
+    padding-left: 5%;
+}
+
+/* <p> tag size and corner border colour */
+#small  {
+    font-size: 20px;
+    padding: 3%;
+    border-bottom: 4px solid #e01b84;
+    border-right: 4px solid #e01b84;
+}
+
+/* same as #small but for bullet points */
+#features   {
+    text-decoration: #e01b84;
+    border-bottom: 4px solid #e01b84;
+    border-right: 4px solid #e01b84;
+    font-size: 20px;
+    padding: 3%;
+    color: #666666;
+    width: 40%;
+    float: left;
+}
+
+/* all for naviagation bar */
+#nav    {
+    list-style-type: none;
+    padding: 0px;
+    margin: 0;
+    display: inline;
+    font-size: 20px;
+}
+
+li a   {
+    float: right;
+    display: block;
+    padding: 8px;
+    color: #283592;
+}
+
+a:hover  {
+    color: #e01b84;
+}
+
+
+/* For The roulette spinner */
+div.spin    {
+    margin-top: 8%;
+    text-align: center;
+    padding-bottom: 2%;
+    padding-top: 10%;
+}
+
+button  {
+    float: none;
+    background-color: #e01b84;
+    color: white;
+    font-size: 50px;
+    border: none;
+}
+
+/* Dowloads Links */
+div.downloads    {
+
+    text-align: center;
+    color: white;
+}
+
+
+/* paragraph sizing and padding */
+div.para   {
+    padding: 2% 0px 0px 15%;
+    width: 60%;
+}
+
+#down   {
+    color: white;
+    background-color: #e01b84;
+}
+
+#links  {
+    text-align: centre;
+}
+
+/* Default Tag Sizes */
+
+h2  {
+    font-size: 30px;
+    color: #e01b84;
+    font-weight: bold;
+}
+
+h1  {
+    font-size: 50px;
+    color: #283592;
+}
+
+p   {
+    color: #666666;
+    font-size: 30px;
+}

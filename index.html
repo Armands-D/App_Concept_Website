@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="stylesheet.css">
+    <title>Recipe Roulette</title>
+</head>
+<body>
+    <header>
+        <h1 id="tophead">Recipe Roulette</h1>
+        <p id="bottomhead">Take The Gamble . . .</p>
+        <ul id="nav">
+            <li><a href="#about">About Us</a></li>
+            <li><a href="#features">Features</a></li>
+            <li><a href="#down">Downloads</a></li>
+            <li><a href="#spinner">Roulette Wheel</a></li>
+          </ul>
+    </header>
+    <div class="para">
+        <h2 id="about">About Us</h2>
+            <p id="small">
+                We're group AP and we designed an fun and pracitcal approach to cooking. We unite all styles of cooking into one app, it's welcoming to both beginners and experts alike.
+                <br><br> 
+                We provide user curated recipes to bring you the quickest, easiest and tastiest recipies. You're provided a huge community of fellow cooks, 
+                get involved with the community and share your knowledge of cooking with
+                the world.
+            </p>
+    </div>
+
+    <div class="para">
+        <img src="imgs/clipj.jpg" id="image"alt="Roulette Wheel" height="30%" width="30%" style="float:right;">
+        
+        <h2>Features</h2>
+            <ul id="features">
+                <li>Quick And Easy Video Tutorials</li>
+                <li>User Reviewed Recipies</li>
+                <li>Countless Styles Of Cooking</li>
+                <li>Weekly Meal Plans</li>
+                <li>Random Roulette Wheel Of Recipes</li>
+                <li>Recipe Leaderboards</li>
+                <li>Win Prizes For The Best Recipe</li>
+            </ul> 
+    </div>
+    
+    <div class=spin>
+        <h1 id=spinner>SPIN THE RECIPE WHEEL</h1>
+        
+        <button onclick="food_picker()">SPIN ME!</button>
+        
+        <p id="food"></p>
+        <img id="myImage" src="imgs/foods/placeholder.jpg" style="width:200px; height:200px;">
+    </div>
+
+    <div class="downloads">
+        <h1 id="down">DOWNLOADS</h1>
+        <h1 onclick="download()" id=links>ANDROID <- click -> </click>IOS&nbsp; &nbsp;</h1>
+    </div>
+
+    <script src="script.js">
+    </script>
+</body>
+</html>
